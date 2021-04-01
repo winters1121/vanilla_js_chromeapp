@@ -1,17 +1,6 @@
-/* String
-const feeling = "행복";
-const possible = "0123456789";
-console.log(feeling, possible); */
+const thing = "thing";
 
-/* Boolean
-const progressive = true;
-const conservative = false;
-console.log(progressive); */
+const arrayOfData = ["haha", "jaja", thing, 15000, 1.5, true, false];
 
-/* Number
-const phonenumber = 17536;
-console.log(phonenumber); */
-
-/* Float
-const myeyesight = 1.2;
-console.log(myeyesight); */
+console.log(arrayOfData);
+console.log(arrayOfData[1]);
