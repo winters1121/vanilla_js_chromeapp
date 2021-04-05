@@ -1,6 +1,6 @@
 const title = document.querySelector("#title");
 
-const CLICKED_CLASS = "cliked";
+const CLICKED_CLASS = "clicked";
 
 function handleClick() {
   const currentClass = title.className;
