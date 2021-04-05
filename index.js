@@ -1,5 +1,7 @@
 function myDear(dear, chicken) {
-  console.log(`Hello ${dear}, you are ${chicken} years old`);
+  return `Hello ${dear}, you are ${chicken} years old`;
 }
 
-myDear("Nakyeong", 22);
+const greetSw = myDear("Nakyeong", 22);
+
+console.log(greetSw);
