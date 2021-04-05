@@ -1,7 +1,19 @@
-if (10 === 5) {
-  console.log("hi");
-} else if (10 === "10") {
-  console.log("ho");
+/*true && true = true;
+false && true = false;
+true && false = false;
+false && false = false; And 조건문 규칙 */
+
+/*true || true = true;
+false || true = true;
+true || false = true;
+false || false = false; Or 조건문 규칙 */
+
+const age = prompt("How old are you?");
+
+if (age >= 18 && age <= 21) {
+  console.log("You can drink but u should not");
+} else if (age > 21) {
+  console.log("Go ahead");
 } else {
-  console.log("haha");
+  console.log("No! U can't");
 }
