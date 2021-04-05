@@ -1,23 +1,11 @@
-const country = {
-  one: "Republic of Korea",
-  two: "Afreeca",
-  three: "United States",
-};
-console.log(country.two);
-
-country.two = "Canada";
-console.log(country.two);
-
-const swInfo = {
-  name: "SangWook",
-  age: 28,
-  city: "Seoul",
-  fatty: false,
-  favMovies: ["BigFish", "HarryPorter", "Soul"],
-  favFoods: [
-    { name: "Chicken", protein: true },
-    { name: "Sashimi", protein: true },
-  ],
-};
-
-console.log(swInfo.favFoods[1].name);
+function myDear(dear, chicken) {
+  console.log(
+    "hello, my Dear.",
+    dear,
+    "I'm so much want to see you.",
+    "so",
+    chicken,
+    "day after we'll meet. yea!"
+  );
+}
+myDear("Nakyeong", 1);
