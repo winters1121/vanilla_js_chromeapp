@@ -1,19 +1,17 @@
-/*true && true = true;
-false && true = false;
-true && false = false;
-false && false = false; And 조건문 규칙 */
+const title = document.querySelector("#title");
 
-/*true || true = true;
-false || true = true;
-true || false = true;
-false || false = false; Or 조건문 규칙 */
+const CLICKED_CLASS = "cliked";
 
-const age = prompt("How old are you?");
-
-if (age >= 18 && age <= 21) {
-  console.log("You can drink but u should not");
-} else if (age > 21) {
-  console.log("Go ahead");
-} else {
-  console.log("No! U can't");
+function handleClick() {
+  const currentClass = title.className;
+  if (currentClass !== CLICKED_CLASS) {
+    title.className = CLICKED_CLASS;
+  } else {
+    title.className = "";
+  }
 }
+
+function init() {
+  title.addEventListener("click", handleClick);
+}
+init();

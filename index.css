@@ -1,7 +1,10 @@
 body {
-  background-color: tomato;
+  background-color: #f5deb3;
+}
+h1 {
+  color: #34495e;
 }
 
-h1 {
-  color: wheat;
+.clicked {
+  color: #7f8c8d;
 }
