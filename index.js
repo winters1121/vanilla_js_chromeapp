@@ -3,10 +3,10 @@ const country = {
   two: "Afreeca",
   three: "United States",
 };
-console.log(country);
+console.log(country.two);
 
 country.two = "Canada";
-console.log(country);
+console.log(country.two);
 
 const swInfo = {
   name: "SangWook",
@@ -20,4 +20,4 @@ const swInfo = {
   ],
 };
 
-console.log(swInfo);
+console.log(swInfo.favFoods[1].name);
